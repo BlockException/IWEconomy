@@ -1,0 +1,10 @@
+eu\iwmedia\iweconomy\util\ColorUtil.class
+eu\iwmedia\iweconomy\command\ReloadCommand.class
+eu\iwmedia\iweconomy\language\LanguageManager.class
+eu\iwmedia\iweconomy\command\EcoCommand.class
+eu\iwmedia\iweconomy\command\BalanceCommand.class
+eu\iwmedia\iweconomy\storage\BalanceStorage.class
+eu\iwmedia\iweconomy\economy\EconomyHandler.class
+eu\iwmedia\iweconomy\command\PayCommand.class
+eu\iwmedia\iweconomy\placeholder\IWEconomyExpansion.class
+eu\iwmedia\iweconomy\IWEconomy.class

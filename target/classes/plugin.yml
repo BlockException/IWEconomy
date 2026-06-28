@@ -1,0 +1,45 @@
+name: IWEconomy
+version: '1.0.31'
+main: eu.iwmedia.iweconomy.IWEconomy
+api-version: 1.21
+author: BlockException_
+website: https://iwmedia.eu
+depend: [PlaceholderAPI, Vault]
+description: Economy plugin with Vault integration and AnvilGUI menus
+
+commands:
+  ecoreload:
+    description: Reload economy configuration
+    usage: /ecoreload
+    permission: iweconomy.manage.reload.admin
+  pay:
+    description: Pay another player
+    usage: /pay <player>
+    permission: iweconomy.pay
+  eco:
+    description: Manage economy
+    usage: /eco <add|set|remove|reset> <player>
+    permission: iweconomy.manage.admin
+  balance:
+    description: Show your balance
+    usage: /balance
+    aliases: [bal]
+    permission: iweconomy.balance
+  bal:
+    description: Show your balance
+    usage: /bal
+    permission: iweconomy.balance
+
+permissions:
+  iweconomy.manage.reload.admin:
+    description: Allows reloading the economy plugin
+    default: op
+  iweconomy.pay:
+    description: Allows paying other players
+    default: true
+  iweconomy.balance:
+    description: Allows seeing your balance
+    default: true
+  iweconomy.manage.admin:
+    description: Allows managing economy
+    default: op
