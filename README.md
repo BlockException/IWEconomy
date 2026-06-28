@@ -52,7 +52,7 @@ language: "en"
 To compile this project yourself, you need Maven installed.
 
 ```bash
-git clone https://github.com/BlockException_/IWEconomy.git
+git clone https://github.com/BlockException/IWEconomy.git
 cd IWEconomy
 mvn clean package
 ```
