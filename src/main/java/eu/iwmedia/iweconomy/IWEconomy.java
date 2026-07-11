@@ -44,6 +44,7 @@ public final class IWEconomy extends JavaPlugin {
     public void onDisable() {
         if (balanceStorage != null) {
             balanceStorage.saveAll();
+            balanceStorage.close();
         }
     }
 

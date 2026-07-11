@@ -1,5 +1,5 @@
 name: IWEconomy
-version: '1.0.31'
+version: '1.0.33'
 main: eu.iwmedia.iweconomy.IWEconomy
 api-version: 1.21
 author: BlockException_

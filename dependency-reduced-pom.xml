@@ -4,10 +4,11 @@
   <groupId>de.iwcode</groupId>
   <artifactId>IWEconomy</artifactId>
   <name>IWEconomy</name>
-  <version>1.0.31</version>
+  <version>1.0.33</version>
   <description>Economy plugin with Vault integration and AnvilGUI menus</description>
   <url>https://github.com/BlockException_/IWEconomy</url>
   <build>
+    <testSourceDirectory>src/tests/java</testSourceDirectory>
     <resources>
       <resource>
         <filtering>true</filtering>
@@ -37,6 +38,8 @@
                   <excludeDefaults>false</excludeDefaults>
                   <includes>
                     <include>net/wesjd/anvilgui/**</include>
+                    <include>org/sqlite/**</include>
+                    <include>org/xerial/sqlite/**</include>
                   </includes>
                 </filter>
               </filters>

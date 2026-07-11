@@ -1,0 +1,3 @@
+-- Initial money.sql database file
+-- Open this file to inspect balances before running the compiled plugin.
+-- The plugin will create or copy a database file into its data folder on first start.
